@@ -29,7 +29,7 @@ namespace Frost_Chembase_BE_APIs_Stock
 			builder.Services.AddSwaggerGen();
 			builder.Services.AddDbContext<AppDbContext>(options =>
 			{
-				options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnectionString"));
+				options.UseNpgsql(builder.Configuration.GetConnectionString("MyConnectionString"));
 			});
 			builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 			builder.Services.AddScoped<IProductService, ProductService>();
