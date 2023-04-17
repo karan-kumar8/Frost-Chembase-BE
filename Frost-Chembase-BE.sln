@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frost-Chembase-BE-APIs-Stock", "Frost-Chembase-BE-APIs-Stock\Frost-Chembase-BE-APIs-Stock.csproj", "{52D6244E-0C67-497C-A96B-DAC57D53E1B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{6D8C4358-5FF3-4433-BFCE-E87A0CE7D2FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{BDE77B21-8CEB-4A94-B708-BE2237485EFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{239B32FA-C7D4-4CF3-8217-4ACE6D16FCAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{6638D55E-39F1-4351-8291-D77D41798AB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frost-Chembase-BE-Business-Stock", "Frost-Chembase-BE-Business-Stock\Frost-Chembase-BE-Business-Stock.csproj", "{9AD78850-FFE2-41D9-B83F-533A112F16A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frost-Chembase-BE-DTOs-Stock", "Frost-Chembase-BE-DTOs-Stock\Frost-Chembase-BE-DTOs-Stock.csproj", "{C7EA9410-D5EE-4227-85E4-5184E9DDCAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frost-Chembase-BE-Repository-Stock", "Frost-Chembase-BE-Repository-Stock\Frost-Chembase-BE-Repository-Stock.csproj", "{8F0C7E2A-51F3-4980-8943-C12958574049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frost-Chembase-BE-Entities-Stock", "Frost-Chembase-BE-Entities-Stock\Frost-Chembase-BE-Entities-Stock.csproj", "{BE5C29AD-42DE-467C-BEFD-197BBEE297C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D6244E-0C67-497C-A96B-DAC57D53E1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D6244E-0C67-497C-A96B-DAC57D53E1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D6244E-0C67-497C-A96B-DAC57D53E1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D6244E-0C67-497C-A96B-DAC57D53E1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD78850-FFE2-41D9-B83F-533A112F16A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD78850-FFE2-41D9-B83F-533A112F16A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD78850-FFE2-41D9-B83F-533A112F16A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD78850-FFE2-41D9-B83F-533A112F16A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EA9410-D5EE-4227-85E4-5184E9DDCAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EA9410-D5EE-4227-85E4-5184E9DDCAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EA9410-D5EE-4227-85E4-5184E9DDCAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EA9410-D5EE-4227-85E4-5184E9DDCAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0C7E2A-51F3-4980-8943-C12958574049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0C7E2A-51F3-4980-8943-C12958574049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0C7E2A-51F3-4980-8943-C12958574049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0C7E2A-51F3-4980-8943-C12958574049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5C29AD-42DE-467C-BEFD-197BBEE297C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5C29AD-42DE-467C-BEFD-197BBEE297C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5C29AD-42DE-467C-BEFD-197BBEE297C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5C29AD-42DE-467C-BEFD-197BBEE297C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52D6244E-0C67-497C-A96B-DAC57D53E1B1} = {6D8C4358-5FF3-4433-BFCE-E87A0CE7D2FC}
+		{9AD78850-FFE2-41D9-B83F-533A112F16A8} = {6638D55E-39F1-4351-8291-D77D41798AB1}
+		{C7EA9410-D5EE-4227-85E4-5184E9DDCAD7} = {BDE77B21-8CEB-4A94-B708-BE2237485EFA}
+		{8F0C7E2A-51F3-4980-8943-C12958574049} = {239B32FA-C7D4-4CF3-8217-4ACE6D16FCAC}
+		{BE5C29AD-42DE-467C-BEFD-197BBEE297C0} = {239B32FA-C7D4-4CF3-8217-4ACE6D16FCAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ED095D7-CFEB-43FE-B934-0A487FFC9D76}
+	EndGlobalSection
+EndGlobal

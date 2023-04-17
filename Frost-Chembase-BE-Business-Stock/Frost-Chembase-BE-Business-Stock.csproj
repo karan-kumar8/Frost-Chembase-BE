@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Frost_Chembase_BE_Business_Stock</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="NLog" Version="5.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Frost-Chembase-BE-DTOs-Stock\Frost-Chembase-BE-DTOs-Stock.csproj" />
+    <ProjectReference Include="..\Frost-Chembase-BE-Repository-Stock\Frost-Chembase-BE-Repository-Stock.csproj" />
+  </ItemGroup>
+
+</Project>
